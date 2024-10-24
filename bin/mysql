@@ -1,0 +1,2 @@
+#!/bin/sh
+docker run --rm docker_mysql_client-image mysql $1

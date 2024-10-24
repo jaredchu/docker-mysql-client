@@ -1,0 +1,6 @@
+services:
+  docker_mysql_client:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: docker_mysql_client-image

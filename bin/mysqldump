@@ -1,2 +1,2 @@
 #!/bin/sh
-docker run --rm docker_mysql_client-image mysqldump $1
+docker run --rm -i --add-host=host.docker.internal:host-gateway docker_mysql_client-image mysqldump "$@"

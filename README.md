@@ -9,5 +9,5 @@ sudo cp ./bin/* /usr/bin/
 ## Usage
 ```sh
 mysql -V
-mysqldump --help
+mysqldump -V
 ```
